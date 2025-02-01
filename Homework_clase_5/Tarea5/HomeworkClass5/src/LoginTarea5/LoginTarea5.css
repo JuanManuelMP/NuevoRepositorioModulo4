@@ -1,0 +1,16 @@
+body{
+background-color: rgb(23, 0, 36);
+}
+
+.formularioTarea{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.error{
+    color: red;
+    font-size: 1rem;
+}

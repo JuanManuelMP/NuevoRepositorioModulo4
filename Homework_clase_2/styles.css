@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #efefef;
+    flex-wrap: wrap;
+    border-style: double;
+    border-color: #000000;
+}
+.card{
+    justify-content: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-style: double;
+    border-color: black;
+    background-color: #a7a7a7;
+ 
+}
+#card-img {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    
+  }
+  
+#card-name {
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-color: #666;
+border-style: dashed;
+  }
+  
+#genero-card {
+    width: 20%;
+    font-size: 18px;
+    color: #666;
+    margin: 0 auto;
+  }
+  
+  
+#cell-card {
+    width: 55%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+#email-card {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  #btn {
+    width: 100%;
+    background-color: rgb(73, 73, 73);
+    margin: 0 auto;
+    font-style: italic ;
+    color: #efefef;
+  }
